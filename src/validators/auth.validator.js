@@ -21,8 +21,8 @@ class AuthValidator {
     static signUpValidator = [
         body('fullName')
             .notEmpty()
-            .isLength({ min: 8 })
-            .withMessage('O nome deve possuir pelo menos 8 caracteres'),
+            .isLength({ min: 3 })
+            .withMessage('O nome deve possuir pelo menos 3 caracteres'),
 
         body('email')
             .notEmpty()

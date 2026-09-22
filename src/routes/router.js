@@ -6,6 +6,8 @@ const router = Router()
 
 router.use('/auth', authRouter)
 router.use('/users', userRouter)
+// router.use('/products', productRouter)
+// router.use('/orders, ordersRouter)
 
 router.use((_, res) => {
     res.status(404).json({

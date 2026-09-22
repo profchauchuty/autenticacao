@@ -10,5 +10,4 @@ app.use(express.json())
 app.use(router)
 
 // Listen
-
 app.listen(80)

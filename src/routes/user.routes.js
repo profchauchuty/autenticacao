@@ -6,6 +6,6 @@ const userRouter = Router()
 
 userRouter.use(AuthMiddleware.authenticate)
 
-userRouter.get('/', UserController.getAll)
+userRouter.get('/',UserController.getAll)
 
 export default userRouter
