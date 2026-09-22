@@ -1,0 +1,26 @@
+{
+  "name": "autenticacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env.development ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profchauchuty/autenticacao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/profchauchuty/autenticacao/issues"
+  },
+  "homepage": "https://github.com/profchauchuty/autenticacao#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
